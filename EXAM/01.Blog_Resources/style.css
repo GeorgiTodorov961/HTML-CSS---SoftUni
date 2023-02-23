@@ -1,0 +1,51 @@
+body {
+    background-color: #f6e0b5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    max-width: 700px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    gap: 18px;
+    position: relative;
+}
+
+.hero__images {
+    border-radius: 8px;
+    background-color: #66545d;
+    border: 1px solid black;
+}
+
+.hero__images .first img{
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.hero__images .text {
+    color: white;
+    padding: 5px 6px;
+    font-size: 14px;
+}
+
+.hero .other h2{
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 12px;
+}
+
+.hero .other {
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    font-size: 12px;
+    width: 150px;
+    color: #66545d;
+    padding: 0px 10px;
+}
+
+.hero .other .items {
+    margin-bottom: 8px;
+}
