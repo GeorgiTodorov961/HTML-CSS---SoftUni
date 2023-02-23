@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.navigation label {
+    font-size: 34px;
+}
+
+.link {
+    display: inline-block;
+    padding-right: 25px;
+    
+}
+
+.navigation__links {
+    display: inline-block;
+    margin-left: 38px;
+    margin-bottom: 42px;
+    
+}
+
+.link a {
+    color: red;
+    text-decoration: none;
+}
+
+.navigation {
+    border-bottom: 2px solid black;
+}
+
+.container {
+    margin-top: 42px;
+}
