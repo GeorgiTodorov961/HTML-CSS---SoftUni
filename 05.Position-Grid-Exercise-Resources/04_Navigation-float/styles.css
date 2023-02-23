@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(233, 220, 220);
+}
+
+header{
+    display: block;
+    border-bottom: 2px solid;
+    position: relative;
+}
+
+header p {
+    display: inline-block;
+    font-size: 40px;
+}
+
+header nav ul{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    list-style-type: none;
+    color: red;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-right: 14px;
+}
